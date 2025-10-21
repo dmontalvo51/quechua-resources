@@ -30,3 +30,6 @@ Deploy `dist/` to any static host (S3/CloudFront, Vercel, Netlify, etc).
 ## Notes
 - Translate proxy may not work on login-protected/CSP-heavy sites; public pages are best.
 - Quechua captions appear only if available; otherwise YouTube may fall back or show none.
+
+# quechua-resources
+Care and Social Resources translated to quechua
