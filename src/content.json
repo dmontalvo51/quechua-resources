@@ -1,0 +1,67 @@
+{
+  "s3BaseUrl": "https://YOUR-S3-BUCKET.s3.amazonaws.com",
+  "subjects": [
+    {
+      "id": "salud",
+      "title": "Salud",
+      "highlight": "Atención médica y prevención",
+      "items": [
+        {
+          "type": "web",
+          "title": "Ministerio de Salud (Perú) — información general",
+          "url": "https://www.gob.pe/minsa"
+        },
+        {
+          "type": "youtube",
+          "title": "Vacunación explicada",
+          "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+        },
+        {
+          "type": "pdf",
+          "title": "Centros de salud locales (PDF)",
+          "key": "pdf/centros_salud.pdf"
+        }
+      ]
+    },
+    {
+      "id": "educacion",
+      "title": "Educación",
+      "highlight": "Programas educativos y becas",
+      "items": [
+        {
+          "type": "web",
+          "title": "Becas y Créditos (Perú)",
+          "url": "https://www.pronabec.gob.pe/"
+        },
+        {
+          "type": "youtube",
+          "title": "Aprender en tu idioma",
+          "url": "https://www.youtube.com/watch?v=ysz5S6PUM-U"
+        }
+      ]
+    },
+    {
+      "id": "alimentacion",
+      "title": "Alimentación y nutricion",
+      "highlight": "Soporte para la alimentación y nutricion",
+      "items": [
+        {
+          "type": "web",
+          "title": "UNICEF - Alimentación y nutrición",
+          "url": "https://www.unicef.org/lac/crianza/alimento-nutricion",
+          "translate": false
+        },
+        {
+          "type": "pdf",
+          "title": "UNICEF - Cuentos que cuidan",
+          "url": "https://www.unicef.org/chile/media/5111/file/Cuentos%20que%20cuidan%20.pdf"
+        },
+        {
+          "type": "web",
+          "title": "MINSA - Alimentacion saludable",
+          "url": "https://alimentacionsaludable.ins.gob.pe/"
+        }
+      ]
+    }
+  ]
+}
