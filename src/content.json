@@ -2,64 +2,114 @@
   "s3BaseUrl": "https://YOUR-S3-BUCKET.s3.amazonaws.com",
   "subjects": [
     {
-      "id": "salud",
-      "title": "Salud",
-      "highlight": "Atención médica y prevención",
+      "id": "cuidados",
+      "title": "Cuidados",
+      "highlight": "Referencias centradas en la identificación, la valoración, la redistribución y el reconocimiento del trabajo de cuidado, y el desarrollo de sistemas de cuidado.",
       "items": [
         {
           "type": "web",
-          "title": "Ministerio de Salud (Perú) — información general",
-          "url": "https://www.gob.pe/minsa"
-        },
-        {
-          "type": "youtube",
-          "title": "Vacunación explicada",
-          "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+          "title": "La economía del cuidado",
+          "source" : "Naciones Unidas",
+          "url": "https://www.un.org/es/observances/care-and-support-day"
         },
         {
           "type": "pdf",
-          "title": "Centros de salud locales (PDF)",
-          "key": "pdf/centros_salud.pdf"
+          "title": "El trabajo de cuidados y los trabajadores del cuidado para un futuro con trabajo decente",
+          "source" : "OIT",
+          "translated": false,
+          "url": "https://www.ilo.org/sites/default/files/wcmsp5/groups/public/%40dgreports/%40dcomm/%40publ/documents/publication/wcms_737394.pdf"
+        },
+        {
+          "type": "web",
+          "title": "La “revolución del cuidado” está en marcha en América Latina",
+          "source" : "Naciones Unidas",
+          "url": "https://news.un.org/es/story/2025/07/1540200"
+        },
+        {
+          "type": "web",
+          "title": "Pacto Internacional de Derechos Económicos, Sociales y Culturales",
+          "source" : "Naciones Unidas",
+          "url": "https://www.ohchr.org/es/instruments-mechanisms/instruments/international-covenant-economic-social-and-cultural-rights"
         }
       ]
     },
     {
-      "id": "educacion",
-      "title": "Educación",
-      "highlight": "Programas educativos y becas",
+      "id": "corresponsabilidad",
+      "title": "Corresponsabilidad",
+      "highlight": "Se refiere a la necesidad de compartir equitativamente las responsabilidades de cuidado y domésticas entre el Estado, el mercado, la comunidad, y, crucialmente, entre hombres y mujeres",
       "items": [
         {
-          "type": "web",
-          "title": "Becas y Créditos (Perú)",
-          "url": "https://www.pronabec.gob.pe/"
+          "type": "pdf",
+          "title": "Masculinidades Corresponsables",
+          "source" : "PNUD",
+          "translated": false,
+          "url": "https://www.undp.org/sites/g/files/zskgke326/files/2022-11/Masculinidades%20Corresponsables%20-%20M%C3%B3dulos.pdf"
         },
         {
-          "type": "youtube",
-          "title": "Aprender en tu idioma",
-          "url": "https://www.youtube.com/watch?v=ysz5S6PUM-U"
+          "type": "pdf",
+          "title": "What men have to do with it: Public Policies to promote gender equality",
+          "source": "Naciones Unidas",
+          "translated": false,
+          "url": "https://elearning.un.org/CONT/GEN/CS/I_Know_Gender/SP/V1/story_content/external_files/M01_S33_Public_Policies_Gender_Equality.pdf"
         }
       ]
     },
     {
-      "id": "alimentacion",
-      "title": "Alimentación y nutricion",
-      "highlight": "Soporte para la alimentación y nutricion",
+      "id": "nuevas-masculinidades",
+      "title": "Nuevas Masculinidades",
+      "highlight": "Referencias que analizan o promueven la transformación de los roles de género tradicionales masculinos, facilitando así la participación equitativa de los hombres en las responsabilidades de cuidado y el fin de las estructuras patriarcales.",
       "items": [
         {
           "type": "web",
-          "title": "UNICEF - Alimentación y nutrición",
-          "url": "https://www.unicef.org/lac/crianza/alimento-nutricion",
-          "translate": false
+          "title": "Transformando MEN'talidades",
+          "source" : "UNESCO",
+          "url": "https://www.unesco.org/es/social-human-sciences/transforming-mentalities"
         },
         {
           "type": "pdf",
-          "title": "UNICEF - Cuentos que cuidan",
-          "url": "https://www.unicef.org/chile/media/5111/file/Cuentos%20que%20cuidan%20.pdf"
+          "title": "Las diferencias de habilidades entre mujeres y hombres se explican por socialización, no genética",
+          "source" : "Periodico The Guardian",
+          "translated": false,
+          "url": "https://elearning.un.org/CONT/GEN/CS/I_Know_Gender/SP/V1/story_content/external_files/Male%20and%20female%20ability%20differences%20down%20to%20socialisation%20-%20ES.pdf"
+        }
+      ]
+    },
+    {
+      "id": "referencias-transversales",
+      "title": "Referencias Transversales",
+      "highlight": "Estas referencias establecen el marco legal, conceptual y de derechos humanos que sustenta la necesidad de implementar políticas de cuidados, corresponsabilidad y nuevas masculinidades.",
+      "items": [
+        {
+          "type": "web",
+          "title": "Convención sobre la eliminación de todas las formas de discriminación contra la mujer",
+          "source" : "Naciones Unidas",
+          "url": "https://www.ohchr.org/es/instruments-mechanisms/instruments/convention-elimination-all-forms-discrimination-against-women"
+        },
+        {
+          "type": "pdf",
+          "title": "La Declaración Universal de los Derechos Humanos(PDF)",
+          "source" : "Naciones Unidas",
+          "translated": false,
+          "url": "https://elearning.un.org/CONT/GEN/CS/I_Know_Gender/SP/V1/story_content/external_files/spn.pdf"
         },
         {
           "type": "web",
-          "title": "MINSA - Alimentacion saludable",
-          "url": "https://alimentacionsaludable.ins.gob.pe/"
+          "title": "La Declaración Universal de los Derechos Humanos(web)",
+          "source" : "Naciones Unidas",
+          "url": "https://www.un.org/es/about-us/universal-declaration-of-human-rights"
+        },
+        {
+          "type": "web",
+          "title": "Las mujeres y los Objetivos de Desarrollo Sostenible (ODS)",
+          "source" : "ONU Mujeres",
+          "url": "https://www.unwomen.org/es/news/in-focus/women-and-the-sdgs"
+        },
+        {
+          "type": "pdf",
+          "title": "Principios para el empoderamiento de las mujeres",
+          "source" : "Naciones Unidas",
+          "translated": false,
+          "url": "https:/elearning.un.org/CONT/GEN/CS/I_Know_Gender/SP/V1/story_content/external_files/Women-s-Empowerment-Principles_2011_es%20pdf.pdf"
         }
       ]
     }

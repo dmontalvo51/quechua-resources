@@ -7,13 +7,13 @@ function ItemRow({ it, s3BaseUrl }) {
   if (it.type === 'web') {
     const shouldTranslate = it.translate !== false
     const targetUrl = shouldTranslate ? translatedLink(it.url, 'qu') : it.url
-    const linkLabel = shouldTranslate ? 'Abrir traducido (Quechua)' : 'Abrir sitio original'
+    const linkLabel = shouldTranslate ? 'WEB en Quechua' : 'WEB original'
     const metaHint = shouldTranslate ? hostLabel(it.url) : hostLabel(it.url) + ' - sin traducción automática'
     return (
       <div className="item">
         <h4>{it.title}</h4>
+        <h6>(Fuente: {it.source})</h6>
         <a className="btn" href={targetUrl} target="_blank" rel="noopener noreferrer">{linkLabel}</a>
-        <div className="meta">{metaHint}</div>
         <div className="item-actions">
           <button className="iconbtn" onClick={() => navigator.clipboard?.writeText(targetUrl)}>Copiar enlace</button>
         </div>
@@ -25,6 +25,7 @@ function ItemRow({ it, s3BaseUrl }) {
     return (
       <div className="item">
         <h4>{it.title}</h4>
+        <h6>(Fuente: {it.source})</h6>
         <a className="btn" href={yLink} target="_blank" rel="noopener noreferrer">Ver en YouTube (CC Quechua)</a>
         <div className="meta">YouTube</div>
         <div className="item-actions">
@@ -34,12 +35,14 @@ function ItemRow({ it, s3BaseUrl }) {
     )
   }
   if (it.type === 'pdf') {
-    const pdfUrl = `${s3BaseUrl}/${it.key}`
+    const translated = it.translated !== false
+    const pdfUrl = translated ? `${s3BaseUrl}/${it.url}` : `${it.url}`
+    const linkLabel = translated ? 'PDF en Quechua' : 'PDF original'
     return (
       <div className="item">
         <h4>{it.title}</h4>
-        <a className="btn" href={pdfUrl} target="_blank" rel="noopener noreferrer">Abrir PDF (S3)</a>
-        <div className="meta">S3: {it.key}</div>
+        <h6>(Fuente: {it.source})</h6>
+        <a className="btn" href={pdfUrl} target="_blank" rel="noopener noreferrer">{linkLabel}</a>
         <div className="item-actions">
           <button className="iconbtn" onClick={() => navigator.clipboard?.writeText(pdfUrl)}>Copiar enlace</button>
         </div>
@@ -100,7 +103,7 @@ export default function App() {
 
         <div className="footer">
           <div>Consejo: si ves la interfaz en otro idioma en YouTube o Google, agrega <code>?hl=qu</code> a la URL.</div>
-          <div className="credit">© Developer by Diego Montalvo</div>
+          <div className="credit">© Developed by Diego Montalvo</div>
         </div>
       </main>
     </>
