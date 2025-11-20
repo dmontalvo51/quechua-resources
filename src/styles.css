@@ -51,8 +51,14 @@ h1 { font-size: clamp(26px, 5vw, 38px); margin:0; letter-spacing:.3px; color:#ff
   border-radius:16px;
   padding:12px;
   box-shadow: 0 10px 24px rgba(0,0,0,0.25);
+  display:flex;
+  align-items:center;
+  justify-content:center;
 }
-.header-qr .small { color:rgba(255,255,255,0.9); max-width:200px; text-align:right; font-weight:500; }
+.header-qr canvas {
+  width:min(295px, 70vw);
+  height:min(295px, 70vw);
+}
 
 .card {
   background: var(--card);
@@ -88,7 +94,6 @@ h1 { font-size: clamp(26px, 5vw, 38px); margin:0; letter-spacing:.3px; color:#ff
   color:#000;
   letter-spacing:.3px;
   text-transform: uppercase;
-  background:var(--secondary);
   padding:5px 12px;
   border-radius:999px;
 }
@@ -97,7 +102,7 @@ h2 { margin: 10px 0 8px; color:var(--primary); font-size:22px; }
 .grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap:12px; margin-top:8px; }
 .item {
   background:#fff;
-  border:1px solid rgba(18,17,19,.06);
+  border:1px solid rgba(18,17,19,.16);
   border-radius:16px;
   padding:14px;
   box-shadow: 0 8px 20px rgba(17,17,17,0.05);
@@ -129,7 +134,29 @@ a.btn:hover { transform: translateY(-1px); }
 
 .qr-wrap { display:flex; align-items:center; gap:12px; flex-wrap:wrap; margin:12px 0; }
 .qr-box { background:#fff; border:1px solid rgba(18,17,19,.12); border-radius:12px; padding:10px; }
-.small { font-size:12px; color:var(--muted); }
+
+.lang-switch {
+  margin-top:12px;
+  display:flex;
+  gap:10px;
+}
+.langbtn {
+  border:1px solid rgba(255,255,255,0.6);
+  background: transparent;
+  color:#fff;
+  padding:6px 14px;
+  border-radius:999px;
+  font-weight:900;
+  font-size: x-large;
+  cursor:pointer;
+  transition: all .15s ease;
+}
+.langbtn:hover { background:rgba(110, 107, 107, 0.18); }
+.langbtn.active {
+  background:#fff;
+  color:var(--header-grad-start);
+  box-shadow:0 6px 18px rgba(0,0,0,0.2);
+}
 
 .warning { background:#fff3f3; border:1px solid rgba(169,76,135,0.3); color:#7a2121; border-radius:12px; padding:12px 14px; font-size:13px; }
 
@@ -145,5 +172,4 @@ a.btn:hover { transform: translateY(-1px); }
 @media (max-width: 640px) {
   header .wrap { align-items:flex-start; }
   .header-qr { align-items:flex-start; text-align:left; }
-  .header-qr .small { text-align:left; }
 }

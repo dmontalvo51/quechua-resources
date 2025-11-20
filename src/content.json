@@ -1,53 +1,97 @@
-{
-  "s3BaseUrl": "https://YOUR-S3-BUCKET.s3.amazonaws.com",
+{ 
+   "main-title": {
+    "es": "Recursos para el cuidado",
+    "qu": "Qhawaypaq yanapakuykuna"
+  },
+
   "subjects": [
     {
       "id": "cuidados",
-      "title": "Cuidados",
-      "highlight": "Referencias centradas en la identificación, la valoración, la redistribución y el reconocimiento del trabajo de cuidado, y el desarrollo de sistemas de cuidado.",
+      "title": {
+        "es": "Cuidados",
+        "qu": "Qhawariy"
+      },
+      "highlight": {
+        "es": "Referencias centradas en la identificación, la valoración, la redistribución y el reconocimiento del trabajo de cuidado, y el desarrollo de sistemas de cuidado.",
+        "qu": "Qhaway llamk'ayta riqsiy, chaninchay, wakmanta rakinakuy, chaninchaq riqsiy ima, hinallataq qhaway llikakunap wiñariyninmanta qillqasqakuna."
+      },
       "items": [
         {
           "type": "web",
-          "title": "La economía del cuidado",
-          "source" : "Naciones Unidas",
+          "title": {
+            "es": "La economía del cuidado",
+            "qu": "Qhawaypaq Musiku"
+          },
+          "source": "Naciones Unidas",
           "url": "https://www.un.org/es/observances/care-and-support-day"
         },
         {
           "type": "pdf",
-          "title": "El trabajo de cuidados y los trabajadores del cuidado para un futuro con trabajo decente",
-          "source" : "OIT",
+          "title": {
+            "es": "El trabajo de cuidado y los trabajadores del cuidado para un futuro con trabajo decente",
+            "qu": "Allin llamk'ayniyuq hamuq pachapaq qhaway llamk'aykuna chaymanta qhawaqkuna ."
+          },
+          "source": "OIT",
+          "translated": false,
+          "url": "https://www.ilo.org/sites/default/files/wcmsp5/groups/public/%40dgreports/%40dcomm/%40publ/documents/publication/wcms_737394.pdf"
+        },
+        {
+          "type": "pdf",
+          "title": {
+            "es": "El trabajo de cuidado y los trabajadores del cuidado para un futuro con trabajo decente",
+            "qu": "Allin llamk'ayniyuq hamuq pachapaq qhaway llamk'ay chaymanta qhaway llamk'aqkuna"
+          },
+          "source": "OIT",
           "translated": false,
           "url": "https://www.ilo.org/sites/default/files/wcmsp5/groups/public/%40dgreports/%40dcomm/%40publ/documents/publication/wcms_737394.pdf"
         },
         {
           "type": "web",
-          "title": "La “revolución del cuidado” está en marcha en América Latina",
-          "source" : "Naciones Unidas",
+          "title": {
+            "es": "La “revolución del cuidado” está en marcha en América Latina",
+            "qu": "Latin Americapiqa 'Qhawaypa Pachakutiynin' ñan purishanña."
+          },
+          "source": "Naciones Unidas",
           "url": "https://news.un.org/es/story/2025/07/1540200"
         },
         {
           "type": "web",
-          "title": "Pacto Internacional de Derechos Económicos, Sociales y Culturales",
-          "source" : "Naciones Unidas",
+          "title": {
+            "es": "Pacto Internacional de Derechos Económicos, Sociales y Culturales",
+            "qu": "Qullqi, Llaqta, Kawsay Yachay Hayñikunamanta Mamallaqtapura Rimay T'aqwiriy"
+          },
+          "source": "Naciones Unidas",
           "url": "https://www.ohchr.org/es/instruments-mechanisms/instruments/international-covenant-economic-social-and-cultural-rights"
         }
       ]
     },
     {
       "id": "corresponsabilidad",
-      "title": "Corresponsabilidad",
-      "highlight": "Se refiere a la necesidad de compartir equitativamente las responsabilidades de cuidado y domésticas entre el Estado, el mercado, la comunidad, y, crucialmente, entre hombres y mujeres",
+      "title": {
+        "es": "Corresponsabilidad",
+        "qu": "Huñusqa kamachiy"
+      },
+      "highlight": {
+        "es": "Se refiere a la necesidad de compartir equitativamente las responsabilidades de cuidado y domésticas entre el Estado, el mercado, la comunidad, y, crucialmente, entre hombres y mujeres",
+        "qu": "Kayqa nin, llakipayayta wasi ruwanakunatapas kamachiy, qhatu, ayllu, aswan chaniyuqtaq qharikunawan warmikunawanpas chaninlla rakinakunankupaq."
+      },
       "items": [
         {
           "type": "pdf",
-          "title": "Masculinidades Corresponsables",
-          "source" : "PNUD",
+          "title": {
+            "es": "Masculinidades Corresponsables",
+            "qu": "Kuskalla Kamachikuq Qhari Kaykuna"
+          },
+          "source": "PNUD",
           "translated": false,
           "url": "https://www.undp.org/sites/g/files/zskgke326/files/2022-11/Masculinidades%20Corresponsables%20-%20M%C3%B3dulos.pdf"
         },
         {
           "type": "pdf",
-          "title": "What men have to do with it: Public Policies to promote gender equality",
+          "title": {
+            "es": "¿Qué tienen que ver los hombres con esto?: Políticas públicas para promover la igualdad de género",
+            "qu": "Qharikunap kaywan imayna tupayninku: Qhariwarmi kaqlla kayta kallpanchanapaq llaqta kamachikuykuna"
+          },
           "source": "Naciones Unidas",
           "translated": false,
           "url": "https://elearning.un.org/CONT/GEN/CS/I_Know_Gender/SP/V1/story_content/external_files/M01_S33_Public_Policies_Gender_Equality.pdf"
@@ -56,19 +100,31 @@
     },
     {
       "id": "nuevas-masculinidades",
-      "title": "Nuevas Masculinidades",
-      "highlight": "Referencias que analizan o promueven la transformación de los roles de género tradicionales masculinos, facilitando así la participación equitativa de los hombres en las responsabilidades de cuidado y el fin de las estructuras patriarcales.",
+      "title": {
+        "es": "Nuevas Masculinidades",
+        "qu": "Musuq qhari kaykuna ."
+      },
+      "highlight": {
+        "es": "Referencias que analizan o promueven la transformación de los roles de género tradicionales masculinos, facilitando así la participación equitativa de los hombres en las responsabilidades de cuidado y el fin de las estructuras patriarcales.",
+        "qu": "Qillqasqakuna, ñawpa qhari kayninpa ruwanankunata t'ikrayta t'aqwiq utaq kallpanchaq, chaywan qharikuna qhaway ruwaykunapi kaqlla yanapakunankupaq, hinallataq kuraq qhari kamachiypa tukukunanpaqpas."
+      },
       "items": [
         {
           "type": "web",
-          "title": "Transformando MEN'talidades",
-          "source" : "UNESCO",
+          "title": {
+            "es": "Transformando MEN'talidades",
+            "qu": "Yuyaykuna tikray"
+          },
+          "source": "UNESCO",
           "url": "https://www.unesco.org/es/social-human-sciences/transforming-mentalities"
         },
         {
           "type": "pdf",
-          "title": "Las diferencias de habilidades entre mujeres y hombres se explican por socialización, no genética",
-          "source" : "Periodico The Guardian",
+          "title": {
+            "es": "Las diferencias de habilidades entre mujeres y hombres se explican por socialización, no genética",
+            "qu": "Warmikunap qharikunap atiyninkupi sapaq kaykunaqa runa kawsay yachachikuywanmi sut'inchakun, manan yawar kawsayninchikwanchu."
+          },
+          "source": "Periodico The Guardian",
           "translated": false,
           "url": "https://elearning.un.org/CONT/GEN/CS/I_Know_Gender/SP/V1/story_content/external_files/Male%20and%20female%20ability%20differences%20down%20to%20socialisation%20-%20ES.pdf"
         }
@@ -76,38 +132,59 @@
     },
     {
       "id": "referencias-transversales",
-      "title": "Referencias Transversales",
-      "highlight": "Estas referencias establecen el marco legal, conceptual y de derechos humanos que sustenta la necesidad de implementar políticas de cuidados, corresponsabilidad y nuevas masculinidades.",
+      "title": {
+        "es": "Referencias Transversales",
+        "qu": "Chawpichaq t'uqsiykuna"
+      },
+      "highlight": {
+        "es": "Estas referencias establecen el marco legal, conceptual y de derechos humanos que sustenta la necesidad de implementar políticas de cuidados, corresponsabilidad y nuevas masculinidades.",
+        "qu": "Kay qillqasqakunaqa kamachiy, yuyay, runa hayñikunapas saywanchata takyachin, chaymi qhawarichin imaraykuchus wakichikuna hunt'ana kasqanta qhawaymanta, rakinakusqa ruwana kasqanmanta, musuq qhari kaykunamantawan."
+      },
       "items": [
         {
           "type": "web",
-          "title": "Convención sobre la eliminación de todas las formas de discriminación contra la mujer",
-          "source" : "Naciones Unidas",
+          "title": {
+            "es": "Convención sobre la eliminación de todas las formas de discriminación contra la mujer",
+            "qu": "Warmikunapaq Tukuy Rikch'aq Sapaqchayta Chinkachinapaq Rimaynakuy"
+          },
+          "source": "Naciones Unidas",
           "url": "https://www.ohchr.org/es/instruments-mechanisms/instruments/convention-elimination-all-forms-discrimination-against-women"
         },
         {
           "type": "pdf",
-          "title": "La Declaración Universal de los Derechos Humanos(PDF)",
-          "source" : "Naciones Unidas",
+          "title": {
+            "es": "La Declaración Universal de los Derechos Humanos(PDF)",
+            "qu": "Runa Hayñikunamanta Llapanpaq Willakuy (PDF)"
+          },
+          "source": "Naciones Unidas",
           "translated": false,
           "url": "https://elearning.un.org/CONT/GEN/CS/I_Know_Gender/SP/V1/story_content/external_files/spn.pdf"
         },
         {
           "type": "web",
-          "title": "La Declaración Universal de los Derechos Humanos(web)",
-          "source" : "Naciones Unidas",
+          "title": {
+            "es": "La Declaración Universal de los Derechos Humanos(web)",
+            "qu": "Runa Hayñikunamanta Llapanpaq Willakuy (web)"
+          },
+          "source": "Naciones Unidas",
           "url": "https://www.un.org/es/about-us/universal-declaration-of-human-rights"
         },
         {
           "type": "web",
-          "title": "Las mujeres y los Objetivos de Desarrollo Sostenible (ODS)",
-          "source" : "ONU Mujeres",
+          "title": {
+            "es": "Las mujeres y los Objetivos de Desarrollo Sostenible (ODS)",
+            "qu": "Warmikuna chaymanta Wiñaypaq Allin Kawsaypaq Kamachikuykuna"
+          },
+          "source": "ONU Mujeres",
           "url": "https://www.unwomen.org/es/news/in-focus/women-and-the-sdgs"
         },
         {
           "type": "pdf",
-          "title": "Principios para el empoderamiento de las mujeres",
-          "source" : "Naciones Unidas",
+          "title": {
+            "es": "Principios para el empoderamiento de las mujeres",
+            "qu": "Warmikunata kallpanchanapaq kamachikuykuna"
+          },
+          "source": "Naciones Unidas",
           "translated": false,
           "url": "https:/elearning.un.org/CONT/GEN/CS/I_Know_Gender/SP/V1/story_content/external_files/Women-s-Empowerment-Principles_2011_es%20pdf.pdf"
         }
